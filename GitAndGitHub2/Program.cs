@@ -10,8 +10,11 @@ namespace GitAndGitHub2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Welcome to GitHub");
+            Person pobj = new Person { Id = 100, Name = "ABC" };
+            
             Console.ReadLine();
+
         }
     }
 }
